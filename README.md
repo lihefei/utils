@@ -35,3 +35,5 @@
     -   **getLastWeekDays** 获取上周的开始结束时间
     -   **getCurrMonthDays** 获取本月的开始结束时间
     -   **getLastMonthDays** 获取上月的开始结束时间
+-   viewResponse
+    -   **viewResponse** 移动端响应式适配
