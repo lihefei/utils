@@ -4,10 +4,6 @@
 
 # 工具清单
 
--   common
-    -   **specialSymbolFilter** 过滤特殊字符，防止 xss 攻击
-    -   **parseQueryStr** 把字符串参数转 json 对象
-    -   **isEmpty** 验证是否为空值(如：undefind、null、空字符、isNaN、[]、{})
 -   gps
     -   **GPSToChina** GPS 坐标转中国坐标
     -   **chinaToGPS** 中国坐标转 GPS 坐标
@@ -28,7 +24,7 @@
     -   **nativeRun** 验证是否是在 APP 运行
 -   userVerify
     -   **userVerify** 用户 id、imei 存储及验证
--   shortcut-time
+-   shortcutTime
     -   **getToday** 获取今天的开始结束时间
     -   **getYesterday** 获取昨天的开始结束时间
     -   **getCurrWeekDays** 获取本周的开始结束时间
@@ -37,3 +33,20 @@
     -   **getLastMonthDays** 获取上月的开始结束时间
 -   viewResponse
     -   **viewResponse** 移动端响应式适配
+-   array
+    -   **isArray** 判断是否是数组
+-   object
+    -   **isObjectEqual** 判断两个对象键值是否相同
+-   character
+    -   **insertStr** 在字符串中插入新字符串
+    -   **midlineToHump** 中划线名称转驼峰式
+    -   **toUpperCaseUnderlined** 驼峰转大写下划线格式
+    -   **colorToRGB** 16 进制颜色转 RGB\RGBA 字符串
+    -   **parseQueryStr** uri 参数转 json 格式
+    -   **specialSymbolFilter** 过滤特殊字符，防止 xss 攻击
+-   map
+    -   **getRandomLatLng** 获取随机坐标
+    -   **getLocationLatLng** 获取设备当前的坐标
+-   regular
+    -   **isEmpty** 验证是否为空值(如：undefind、null、空字符、isNaN、[]、{})
+    -   **phone** 验证手机号码格式
