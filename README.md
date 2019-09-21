@@ -35,6 +35,7 @@
     -   **viewResponse** 移动端响应式适配
 -   array
     -   **isArray** 判断是否是数组
+    -   **mergeArray** 合并简单数组
 -   object
     -   **isObjectEqual** 判断两个对象键值是否相同
 -   character
@@ -47,6 +48,8 @@
 -   map
     -   **getRandomLatLng** 获取随机坐标
     -   **getLocationLatLng** 获取设备当前的坐标
+    -   **isLatLng** 验证经纬度数据
+    -   **pointParse** 经纬度数据转换为地图坐标点
 -   regular
     -   **isEmpty** 验证是否为空值(如：undefind、null、空字符、isNaN、[]、{})
     -   **phone** 验证手机号码格式
