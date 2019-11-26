@@ -35,8 +35,9 @@
     -   **viewResponse** 移动端响应式适配
 -   array
     -   **isArray** 判断是否是数组
-    -   **mergeArray** 合并简单数组
-    -   **removeArray** 通过值或下标删除项
+    -   **mergeArray** 合并任意参数去重并输出数组
+    -   **removeArray** 通过指定参数删除数组中对应的值
+    -   **removeArrayIndex** 删除数组中指定下标的值
 -   object
     -   **isObjectEqual** 判断两个对象键值是否相同
 -   character
