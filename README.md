@@ -55,3 +55,7 @@
 -   regular
     -   **isEmpty** 验证是否为空值(如：undefind、null、空字符、isNaN、[]、{})
     -   **phone** 验证手机号码格式
+-   screen
+    -   **launchFullScreen** 进入全屏模式
+    -   **exitFullScreen** 退出全屏模式
+    -   **watchFullScreen** 监听全屏状态
