@@ -25,12 +25,18 @@
 -   userVerify
     -   **userVerify** 用户 id、imei 存储及验证
 -   shortcutTime
+
     -   **getToday** 获取今天的开始结束时间
     -   **getYesterday** 获取昨天的开始结束时间
     -   **getCurrWeekDays** 获取本周的开始结束时间
     -   **getLastWeekDays** 获取上周的开始结束时间
     -   **getCurrMonthDays** 获取本月的开始结束时间
     -   **getLastMonthDays** 获取上月的开始结束时间
+    -   **getCurrQuarterDays** 获取本季度的开始结束时间
+    -   **getLastQuarterDays** 获取上季度的开始结束时间
+    -   **getCurrYearDays** 获取本年的开始结束时间
+    -   **getLastYearDays** 获取上年的开始结束时间
+
 -   viewResponse
     -   **viewResponse** 移动端响应式适配
 -   array
