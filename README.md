@@ -37,8 +37,7 @@
     -   **getCurrYearDays** 获取本年的开始结束时间
     -   **getLastYearDays** 获取上年的开始结束时间
 
--   viewResponse
-    -   **viewResponse** 移动端响应式适配
+-   **viewResponse** 移动端响应式适配
 -   array
     -   **isArray** 判断是否是数组
     -   **mergeArray** 合并任意参数去重并输出数组
@@ -65,3 +64,4 @@
     -   **launchFullScreen** 进入全屏模式
     -   **exitFullScreen** 退出全屏模式
     -   **watchFullScreen** 监听全屏状态
+-   **debouncer** 函数节流器

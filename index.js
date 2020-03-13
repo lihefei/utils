@@ -8,6 +8,7 @@ import object from './lib/object.js';
 import character from './lib/character.js';
 import map from './lib/map.js';
 import regular from './lib/regular.js';
+import debouncer from './lib/debouncer.js';
 
 export default {
     gps,
@@ -19,5 +20,6 @@ export default {
     object,
     character,
     map,
-    regular
+    regular,
+    debouncer
 };
