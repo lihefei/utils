@@ -42,15 +42,24 @@
     -   **isArray** 判断是否是数组
     -   **mergeArray** 合并任意参数去重并输出数组
     -   **removeArray** 通过指定参数删除数组中对应的值
+    -   **removeArray**  删除数组中的值
     -   **removeArrayIndex** 删除数组中指定下标的值
+    -   **treeToArray** 树结构转扁平数组
+    -   **arrayToTree** 扁平数组转树结构
 -   object
+    -   **isEmptyObject** 判断空对象
     -   **isObjectEqual** 判断两个对象键值是否相同
+    -   **deepClone** 对象深拷贝
+    -   **deepMerge** 对象深合并
 -   character
     -   **insertStr** 在字符串中插入新字符串
     -   **midlineToHump** 中划线名称转驼峰式
+    -   **lineToHump** 中划线或下划线名称转驼峰式
     -   **toUpperCaseUnderlined** 驼峰转大写下划线格式
+    -   **camelCase2KebabCase** 小驼峰转中划线连字符
     -   **colorToRGB** 16 进制颜色转 RGB\RGBA 字符串
-    -   **parseQueryStr** uri 参数转 json 格式
+    -   **getQueryParams** 获取url地址的参数对象
+    -   **parseQueryParams** 将url对象转为参数字符串
     -   **specialSymbolFilter** 过滤特殊字符，防止 xss 攻击
 -   map
     -   **getRandomLatLng** 获取随机坐标
@@ -64,4 +73,8 @@
     -   **launchFullScreen** 进入全屏模式
     -   **exitFullScreen** 退出全屏模式
     -   **watchFullScreen** 监听全屏状态
+-   other
+    -   **generateID** 创建guid
+    -   **randomNum** 随机数
+
 -   **debouncer** 函数节流器
