@@ -58,8 +58,8 @@
     -   **toUpperCaseUnderlined** 驼峰转大写下划线格式
     -   **camelCase2KebabCase** 小驼峰转中划线连字符
     -   **colorToRGB** 16 进制颜色转 RGB\RGBA 字符串
-    -   **getQueryParams** 获取url地址的参数对象
-    -   **parseQueryParams** 将url对象转为参数字符串
+    -   **parseQueryParams** 获取url地址的参数对象
+    -   **stringifyQueryParams** 将url对象转为参数字符串
     -   **specialSymbolFilter** 过滤特殊字符，防止 xss 攻击
 -   map
     -   **getRandomLatLng** 获取随机坐标
